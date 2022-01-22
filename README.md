@@ -15,14 +15,14 @@ All requests sent by POST - method. All requests except `/login` should have hea
 **Request:**
  ```sh
  {
-  	"login": "username"      
-	"password":"password"      
+  	"login": "username",      
+	 "password":"password",      
 }
 ```
 **Response:**
  ```sh
  {
-  	"messsage": "success" // string
+  	"messsage": "success" ,// string
  } 
 ```
 
@@ -32,7 +32,7 @@ All requests sent by POST - method. All requests except `/login` should have hea
 
 ```sh
 {
-  "login": "wallet login"  
+  "login": "wallet login", 
 }
 ```
 **Response:**
@@ -74,7 +74,7 @@ All requests sent by POST - method. All requests except `/login` should have hea
 ```sh
 {
   "data": {
-      "Count": "some count" // int
+      "Count": "some count", // int
       "Sum": "some sum" // float
   }
 }
@@ -92,7 +92,7 @@ All requests sent by POST - method. All requests except `/login` should have hea
 ```sh
 {
 "message":{
-    "WalletLogin":"SomeWallet" // string
+    "WalletLogin":"SomeWallet", // string
     "balance":"wallet sum" // float
  }
 }
